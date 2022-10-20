@@ -1,5 +1,4 @@
 import {Navbar} from './components'
-import img from '../src/assets/images/Logo.jpg'
 
 
 function App() {
