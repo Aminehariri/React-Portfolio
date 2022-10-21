@@ -1,4 +1,12 @@
-
+import html from '../assets/skills/html.png'
+import css from '../assets/skills/css.png'
+import tailwind from '../assets/skills/tailwind.png'
+import bootstrap from '../assets/skills/boots-removebg-preview.png'
+import js from '../assets/skills/javascript.png'
+import reactIMG from '../assets/skills/react.png'
+import git from '../assets/skills/Git.webp'
+import php from '../assets/skills/php.webp'
+import mysql from   '../assets/skills/mysql.webp'
 
 export const navLinks = [
   {
@@ -23,3 +31,51 @@ export const navLinks = [
   }
 ];
 
+
+export const skills=[
+  {
+    id:1,
+    img:html,
+    title:'HTML'
+  },
+  {
+    id:2,
+    img:css,
+    title:'CSS'
+  },
+  {
+    id:3,
+    img:bootstrap,
+    title:'BOOTSTRAP'
+  },
+  {
+    id:4,
+    img:tailwind,
+    title:'TAILWIND'
+  },
+  {
+    id:5,
+    img:js,
+    title:'JAVASCRIPT'
+  },
+  {
+    id:6,
+    img:reactIMG,
+    title:'REACT-JS'
+  },
+  {
+    id:7,
+    img:git,
+    title:'GIT'
+  },
+  {
+    id:8,
+    img:php,
+    title:'PHP'
+  },
+  {
+    id:9,
+    img:mysql,
+    title:'MY-SQL'
+  },
+]

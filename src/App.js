@@ -2,6 +2,8 @@ import Landing from './components/Landing';
 import Navbar from './components/Navbar'
 import { motion } from "framer-motion"
 import About from './components/About';
+import Work from './components/Work';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       <Navbar />
       <Landing />
       <About />
+      <Skills />
     </div>
   );
 }
