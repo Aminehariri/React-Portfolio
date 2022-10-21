@@ -3,11 +3,14 @@ import {AiFillMail, AiOutlineArrowRight} from 'react-icons/ai'
 import Typed from 'react-typed'
 import {AiFillLinkedin,AiFillGithub,AiOutlineMail} from 'react-icons/ai'
 import {HiOutlineMail} from 'react-icons/hi'
+import { Link } from 'react-scroll'
+
+
 export default function Landing() {
   return (
     <>
-    <div className='h-[calc(85vh)] text-white  '>
-      <h3 className='text-[18px]  sm:mt-12 mt-20  mb-4 text-gradient font-normal'>Let's build something together</h3>
+    <div className='h-[80vh] text-white  '>
+      <h3 className='text-[18px] mt-24  mb-4 text-gradient font-normal'>Let's build something together</h3>
       <h1 
         className=' md:text-6xl sm:text-4xl text-2xl font-bold  sm:font-normal text-[#ffffffcc] '>Hi, I'm {' '}
         
@@ -15,8 +18,11 @@ export default function Landing() {
         <br/>Front-End Web Developer
       </h1>
         <p className='py-6 max-w-[500px]'>I’m a front-end web developer specializing in building exceptional digital experiences. Currently, I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
-      <button className='btn group'>Explore more 
+      <button className='btn group'>
+        <Link to='About' className='bg-transparent'  smooth={true} duration={500}>
+        Explore more 
         <AiOutlineArrowRight className='bg-[transparent]  ml-2 right' />
+        </Link>
       </button>
     </div> 
     

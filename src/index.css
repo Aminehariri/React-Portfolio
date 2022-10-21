@@ -121,3 +121,10 @@ svg{
 .btn:hover .right{
   transform: rotate(90deg);
 }
+
+
+.section-title{
+  position: relative;
+  border-bottom: 1px solid #4ca5ff;
+  width: fit-content;
+}

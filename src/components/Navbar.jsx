@@ -3,7 +3,7 @@ import { navLinks } from '../data'
 import { useState } from 'react'
 import {close,logo,menu} from '../assets'
 import { AiFillLinkedin } from 'react-icons/ai';
-
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
 
@@ -18,7 +18,9 @@ export default function Navbar() {
         {
           navLinks.map((nav,index) =>(
             <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white  mr-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mr-10 '}`}>
-                <a href={`${nav.id}`} className='text-[#777] hover:text-white'>{nav.title}</a>
+                <Link to={nav.title}  smooth={true} duration={500} key={nav.id}>
+                      {nav.title}
+                    </Link>
             </li>
           ))
         }
@@ -31,7 +33,9 @@ export default function Navbar() {
             {
               navLinks.map((nav,index) =>(
                 <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white  mb-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mb-10 '}`}>
-                    <a href={`${nav.id}`} className='text-white'>{nav.title}</a>
+                    <Link to={nav.title}  smooth={true} duration={500} key={nav.id}>
+                      {nav.title}
+                    </Link>
                 </li>
               ))
             }
@@ -47,5 +51,5 @@ export default function Navbar() {
 
 
 
-
+{/* <a href={`${nav.id}`} className='text-white'>{nav.title}</a> */}
 
