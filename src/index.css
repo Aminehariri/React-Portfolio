@@ -4,11 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&family=Tiro+Kannada:ital@0;1&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,400&display=swap');
 
+
+/* some global rules */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0D1016;
+  /* background-color: #0D1016; */
+  background-color: rgb(11,11,15);
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -27,6 +30,15 @@ ul{
   margin-right: auto;
   margin-left: auto;
 }
+p{
+  /* color: #ffffffcc;; */
+  color: #777;
+}
+h1{
+  line-height: 2;
+    /* color: #ffffffcc;; */
+}
+
 @media (min-width:768px){
   .container{
       width: 750px;
@@ -43,26 +55,25 @@ ul{
     width: 1170px;
   }
 }
+
+
+/* text gradient color  */
 .text-gradient{
-  background:  linear-gradient(0deg,#4ca5ff 2.34%,#b673f8 100.78%);
+  background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); 
   background-clip-text: text;
+  font-weight: bold;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-}
-.icon{
-  color: rgb(140 124 255);
-  border-radius: 50%;
-  background-color: transparent;
-  font-size: 35px;
+  /* color: #4ca5ff; */
 }
 
 
+/* navbar transition  */
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -73,7 +84,6 @@ ul{
     transform: translateY(0);
   }
 }
-
 @keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -84,11 +94,30 @@ ul{
     transform: translateY(0);
   }
 }
-.bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+
+
+/* button shap code  */
+.btn{
+  /* background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); */
+  background-color: transparent;
+  border: 1px solid #4ca5ff;
+  color: #4ca5ff;
+  margin: 20px 0;
+  padding: 15px 20px;
+  color: white;
+  cursor: pointer;
+  /* border-radius: 50px; */
+  width: 200px;
+}
+
+svg{
+  display: initial;
+  transition: .3s;
+}
+.btn:hover{
+  background-color: rgb(76 165 255 / 10%);;
+}
+
+.btn:hover .right{
+  transform: rotate(90deg);
 }

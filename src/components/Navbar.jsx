@@ -2,6 +2,7 @@ import React from 'react'
 import { navLinks } from '../data'
 import { useState } from 'react'
 import {close,logo,menu} from '../assets'
+import { AiFillLinkedin } from 'react-icons/ai';
 
 
 export default function Navbar() {
@@ -37,6 +38,8 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
+
+      
     </nav>
   )
 }
