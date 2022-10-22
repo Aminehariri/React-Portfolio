@@ -4,7 +4,7 @@ import { skills } from '../data'
 
 export default function Skills() {
   return (
-    <div name='Skills' className='w-full h-[100vh] text-white '  >
+    <div name='Skills' className='w-full  text-white '  >
             <div className='py-6'>
               <h2 className='text-2xl text-gradient section-title my-4 py-2'>My Skills</h2>
               <h4 className='max-w-[700px] text-[#ffffffcc]'>To building websites and web applications I use modern technologies and techniques with best practices to make my clients satisfied 100% with the result...</h4>

@@ -4,7 +4,6 @@ import { useState } from 'react'
 import {close,logo,menu} from '../assets'
 import { AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-scroll';
-
 export default function Navbar() {
 
   const [toggle,setToggle] =useState(false);
@@ -41,15 +40,7 @@ export default function Navbar() {
             }
           </ul>
         </div>
-      </div>
-
-      
+      </div>      
     </nav>
   )
 }
-
-
-
-
-{/* <a href={`${nav.id}`} className='text-white'>{nav.title}</a> */}
-
