@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import About from './components/About';
 import Work from './components/Work';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Work/>
+      <Contact />
     </div>
   );
 }

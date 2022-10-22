@@ -17,10 +17,10 @@ export default function Navbar() {
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
           navLinks.map((nav,index) =>(
-            <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white  mr-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mr-10 '}`}>
+            <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-[#777] hover:text-white  mr-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mr-10 '}`}>
                 <Link to={nav.title}  smooth={true} duration={500} key={nav.id}>
-                      {nav.title}
-                    </Link>
+                  {nav.title}
+                </Link>
             </li>
           ))
         }

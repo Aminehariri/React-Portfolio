@@ -8,7 +8,7 @@ export default function About() {
       <p className='my-12 text-[#ffffffcc] max-w-[840px] text-xl md:text-2xl'>I'am Amine Hariri,Junior Web Developer Based In Casablanca,I'like Coding Things From Scratch And Enjoy Bringing Ideas To Life In The Browser With Modern Technologies.
         I'm Looking For A New Opportunity On The Job Market,As a Frontend Web Developer. <br/> I'can work with these Technologies : Html- Css-Tailwind - Javascript-ReactJs-Php-MySql</p>
       <button  className='btn'>
-        <a href="../assets/CV-AMINE-HARIRI.pdf" download className='bg-transparent'>Download CV <AiFillFilePdf/></a>
+        <a href="../assets/CV-AMINE-HARIRI.pdf" download className='bg-transparent'>Download Resume  <AiFillFilePdf/></a>
       </button>
     </div>
   )

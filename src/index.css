@@ -107,7 +107,7 @@ h1{
   color: white;
   cursor: pointer;
   /* border-radius: 50px; */
-  width: 200px;
+  width: fit-content;
 }
 
 svg{
@@ -149,8 +149,15 @@ img{
   )!important;
 }
 
-.card{
+/* .card{
   -webkit-box-shadow: 0.5px 0 11.5px -3.5px #dddddd;
 -moz-box-shadow: 0.5px 0 11.5px -3.5px #dddddd;
 box-shadow: 0.5px 0 11.5px -3.5px #dddddd;
+} */
+
+.card:hover{
+  -webkit-box-shadow: inset 6px 6px 30px rgb(246 246 246 / 20%);
+  box-shadow: inset 6px 6px 30px rgb(246 246 246 / 20%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
