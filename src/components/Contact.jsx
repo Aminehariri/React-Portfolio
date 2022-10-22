@@ -8,7 +8,7 @@ import {BsLinkedin} from 'react-icons/bs'
 export default function Contact() {
   return (
     <div name="Contact" className='w-full my-14'>
-        <h2 className='text-2xl text-gradient section-title my-4 py-2'> Contact me</h2>
+        <h2 className='text-2xl text-gradient section-title mt-4 mb-12 '> Contact me</h2>
 
 
         <div className='flex flex-col lg:flex-row pb-16'>
@@ -38,6 +38,7 @@ export default function Contact() {
 
           </div>
         </div>
+        <hr />
     </div>
   )
 }

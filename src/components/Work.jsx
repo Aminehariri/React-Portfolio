@@ -7,8 +7,8 @@ import { projects } from '../data'
 export default function Work() {
   return (
   <div name='Portfolio' className='w-full mb-[90px] text-white '  >
-    <div className='py-6'>
-      <h2 className='text-2xl text-gradient section-title my-4 py-2 md:mt-6'>My recent projects</h2>
+    <div className='pt-6'>
+      <h2 className='text-2xl text-gradient section-title mt-4 mb-12 md:mt-6'>My recent projects</h2>
     </div>
     
     <div className=''>

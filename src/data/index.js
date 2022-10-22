@@ -71,11 +71,6 @@ export const skills=[
     title:'REACT-JS'
   },
   {
-    id:7,
-    img:git,
-    title:'GIT'
-  },
-  {
     id:8,
     img:php,
     title:'PHP'
@@ -85,6 +80,11 @@ export const skills=[
     img:mysql,
     title:'MY-SQL'
   },
+  {
+    id:7,
+    img:git,
+    title:'GIT'
+  }
 ]
 
 

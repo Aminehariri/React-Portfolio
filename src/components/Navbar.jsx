@@ -4,6 +4,7 @@ import { useState } from 'react'
 import {close,logo,menu} from '../assets'
 import { AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-scroll';
+import amie from '../assets/skills/Vertical Lockup on Black Background.png'
 export default function Navbar() {
 
   const [toggle,setToggle] =useState(false);
@@ -11,7 +12,8 @@ export default function Navbar() {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="logo" className='w-[124px] h-[32px]' />
+      {/* <img src={logo} alt="logo" className='w-[124px] h-[32px]' /> */}
+      <h1 className='text-white text-2xl text-gradient'>H.Amine</h1>
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
@@ -31,7 +33,7 @@ export default function Navbar() {
             <ul className='list-none flex-col flex justify-end items-center flex-1 '>
             {
               navLinks.map((nav,index) =>(
-                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white  mb-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mb-10 '}`}>
+                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mb-10 '}`}>
                     <Link to={nav.title}  smooth={true} duration={500} key={nav.id}>
                       {nav.title}
                     </Link>
