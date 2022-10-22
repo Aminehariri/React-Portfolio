@@ -7,11 +7,11 @@ import {BsLinkedin} from 'react-icons/bs'
 
 export default function Contact() {
   return (
-    <div name="Contact" className='w-full '>
+    <div name="Contact" className='w-full my-14'>
         <h2 className='text-2xl text-gradient section-title my-4 py-2'> Contact me</h2>
 
 
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col lg:flex-row pb-16'>
           <div className='w-full lg:w-1/2 my-2 md:my-6'>
             <h3 className='text-white'>Let's collaborate<GiNetworkBars className='ml-4'/></h3>
             <p className='my-4'>If You Have Any Suggestion, Project Or Even You Want To Say Hello.
@@ -28,7 +28,7 @@ export default function Contact() {
             <form action="" className='w-full'>
               <div className='flex flex-wrap my-1 justify-between'>
                 <input type="text"  required className=' inp w-full md:w-[45%] my-5' placeholder='Full Name'/>
-                <input type="text" required className='inp w-full md:w-[45%] my-5 ' placeholder='Subject' />
+                <input type="text" required className='inp w-full md:w-[45%] md:my-5 mb-5 ' placeholder='Subject' />
               </div>
               
               <input type="mail" className='inp w-full mb-5' placeholder='Example@email.com' />
