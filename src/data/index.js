@@ -17,23 +17,23 @@ import project2 from '../assets/skills/workImg.jpeg'
 
 export const navLinks = [
   {
-    id: "Home",
+    id: "/Home",
     title: "Home",
   },
   {
-    id: "About",
+    id: "/About",
     title: "About",
   },
   {
-    id: "Skills",
+    id: "/Skills",
     title: "Skills",
   },
   {
-    id: "Work",
+    id: "/Work",
     title: "Portfolio",
   },
   {
-    id: "Contact", 
+    id: "/Contact", 
     title: "Contact",
   },
 ];

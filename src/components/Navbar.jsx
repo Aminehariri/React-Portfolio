@@ -4,7 +4,6 @@ import { useState } from 'react'
 import {close,logo,menu} from '../assets'
 import { AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-scroll';
-import amie from '../assets/skills/Vertical Lockup on Black Background.png'
 export default function Navbar() {
 
   const [toggle,setToggle] =useState(false);
@@ -18,11 +17,12 @@ export default function Navbar() {
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
           navLinks.map((nav,index) =>(
-            <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-[#777] hover:text-white  mr-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mr-10 '}`}>
-                <Link to={nav.title}  smooth={true} duration={500} key={nav.id}>
-                  {nav.title}
-                </Link>
+            <li key={nav.id} >
+              <a href={nav.id} key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-[#777] hover:text-white  mr-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mr-10 '}`}>
+                {nav.title}
+              </a>
             </li>
+            
           ))
         }
       </ul>
@@ -34,9 +34,9 @@ export default function Navbar() {
             {
               navLinks.map((nav,index) =>(
                 <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mb-10 '}`}>
-                    <Link to={nav.title}  smooth={true} duration={500} key={nav.id}>
+                    <a href={nav.id} key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-[#777] hover:text-white  }`}>
                       {nav.title}
-                    </Link>
+                    </a>
                 </li>
               ))
             }
