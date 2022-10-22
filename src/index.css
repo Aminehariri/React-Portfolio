@@ -98,7 +98,6 @@ h1{
 
 /* button shap code  */
 .btn{
-  /* background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); */
   background-color: transparent;
   border: 1px solid #4ca5ff;
   color: #4ca5ff;
@@ -128,10 +127,6 @@ svg{
   width: fit-content;
 }
 
-img{
-  height: 100%;
-  width: 100%;
-}
 
 
 
@@ -149,15 +144,20 @@ img{
   )!important;
 }
 
-/* .card{
-  -webkit-box-shadow: 0.5px 0 11.5px -3.5px #dddddd;
--moz-box-shadow: 0.5px 0 11.5px -3.5px #dddddd;
-box-shadow: 0.5px 0 11.5px -3.5px #dddddd;
-} */
-
 .card:hover{
   -webkit-box-shadow: inset 6px 6px 30px rgb(246 246 246 / 20%);
   box-shadow: inset 6px 6px 30px rgb(246 246 246 / 20%);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.inp{
+  padding: 5px;
+  border: 1px solid #777;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+.inp:focus{
+  border:  1px solid #4ca5ff;
 }
