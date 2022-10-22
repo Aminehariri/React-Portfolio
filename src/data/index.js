@@ -1,3 +1,5 @@
+// skills imgages 
+
 import html from '../assets/skills/html.png'
 import css from '../assets/skills/css.png'
 import tailwind from '../assets/skills/tailwind.png'
@@ -8,7 +10,16 @@ import git from '../assets/skills/Git.webp'
 import php from '../assets/skills/php.webp'
 import mysql from   '../assets/skills/mysql.webp'
 
+// work section imgages 
+
+import project1 from '../assets/skills/realestate.jpg'
+import project2 from '../assets/skills/workImg.jpeg'
+
 export const navLinks = [
+  {
+    id: "Home",
+    title: "Home",
+  },
   {
     id: "About",
     title: "About",
@@ -22,13 +33,9 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "Services",
+    id: "Services", 
     title: "Services",
   },
-  {
-    id: "Contact",
-    title: "Contact",
-  }
 ];
 
 
@@ -78,4 +85,28 @@ export const skills=[
     img:mysql,
     title:'MY-SQL'
   },
+]
+
+
+export const projects=[
+  {
+    id:1,
+    img:project1,
+    title:'RealState Website',
+  }
+  ,{
+    id:2,
+    img:project2,
+    title:'Working Website'
+  },
+  {
+    id:3,
+    img:project1,
+    title:'RealState Website',
+  }
+  ,{
+    id:4,
+    img:project2,
+    title:'Working Website'
+  }
 ]

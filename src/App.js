@@ -13,6 +13,7 @@ function App() {
       <Landing />
       <About />
       <Skills />
+      <Work/>
     </div>
   );
 }
