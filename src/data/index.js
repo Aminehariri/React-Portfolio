@@ -17,7 +17,7 @@ import project2 from '../assets/skills/workImg.jpeg'
 
 export const navLinks = [
   {
-    id: "/Home",
+    id: "/",
     title: "Home",
   },
   {

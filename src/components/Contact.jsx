@@ -24,7 +24,7 @@ export default function Contact() {
           </div>
 
 
-          <div className='md:mx-4'>
+          <div className='md:mx-4 md:mr-4'>
             <form action="" className='w-full'>
               <div className='flex flex-wrap my-1 justify-between'>
                 <input type="text"  required className=' inp w-full md:w-[45%] my-5' placeholder='Full Name'/>
