@@ -42,7 +42,6 @@ export default function Contact() {
               </ul>
           </div>
 
-
           <div className='md:mx-4 md:mr-4'>
             <form ref={form} onSubmit={sendEmail} className='w-full'>
               <div className='flex flex-wrap my-1 justify-between'>
@@ -50,7 +49,7 @@ export default function Contact() {
                 <input type="text" name='subject' required className='inp w-full md:w-[45%] md:my-5 mb-5 ' placeholder='Subject' />
               </div>
               
-              <input type="mail" name='email' className='inp w-full mb-5' placeholder='Example@email.com' />
+              <input type="mail" name='email' className='inp w-full mb-5' placeholder='Example@domain.com' />
               <textarea  required name='message' className='inp w-full h-[120px] mb-5' placeholder='Message'></textarea>
               <input type="submit" className='border border-[#4ca5ff] p-3 cursor-pointer text-white' value='send message' name="" id="" />
             </form>

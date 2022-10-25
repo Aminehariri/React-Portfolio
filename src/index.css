@@ -6,6 +6,7 @@
 
 
 /* some global rules */
+
 *{
   margin: 0;
   padding: 0;
@@ -25,7 +26,6 @@ ul{
   list-style: none;
 }
 p{
-  /* color: #ffffffcc;; */
   color: #777;
 }
 h1{
@@ -129,10 +129,6 @@ svg{
   border-bottom: 1px solid #4ca5ff;
   width: fit-content;
 }
-
-
-
-
 
 .content-div{
   background-repeat: no-repeat;

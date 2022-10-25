@@ -46,7 +46,7 @@ export default function Navbar() {
             <ul className='list-none flex-col flex justify-end items-center flex-1 bg-transparent '>
             {
               navLinks.map((nav,index) =>(
-                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] bg-transparent text-white mb-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mb-10 '}`}>
+                <li key={nav.id} className={`font-poppins font-normal z-10 cursor-pointer text-[16px] bg-transparent text-white mb-10} ${index ===navLinks.length -1 ? 'mr-0' : 'mb-10 '}`}>
                   <Link smooth={true} duration={300} to={nav.id} key={nav.id} className={`font-poppins bg-transparent  font-normal cursor-pointer text-[16px] text-[#777] hover:text-white  mr-10} `}j>
                     {nav.title}
                   </Link>
