@@ -125,7 +125,7 @@ export const projects=[
     img:ReactPorfolio,
     title:'React Portfolio',
     link:'#',
-    describe:'I’m creating my own portfolio website from scratch to show my project and skills on internet ,Using html css javascript for frontend side .And for backend i’m using php and mysql as database to store the messages that are comming from the contact form . I’m almost done with the frontend side still some features to add then i’m gonna start the backend side .',
+    describe:'My second Portfolio .this one was created using REACT-JS and TAILWIND to upgrade my react-js and tailwind skills',
     skills:{
       one:'REACT-JS',
       two:"TAILWIND CSS",
@@ -139,7 +139,7 @@ export const projects=[
     img:htmlPorfolio,
     title:'Porfolio Website',
     link:'https://aminehariri.github.io/Portfolio-website/index.html',
-    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,but it was vary hard to edit the content or add some feature using pur HTML.That’s why a decide to create a new one using REACT-JS and TAILWIND',
+    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,but it was vary hard to edit the content or add some feature.That’s why a decide to create a new one using REACT-JS and TAILWIND',
     skills:{
       one:'REACT-JS',
       two:"TAILWIND CSS",
