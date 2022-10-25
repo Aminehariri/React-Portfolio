@@ -30,19 +30,19 @@ export default function Landing() {
         <ul className='mr-4'>
 
           <li className='w-[100px] h-[50px] flex justify-around items-center mr-[-80px] hover:mr-[10px] ease-in-out duration-500' >
-            <a href="/" className='flex justify-between items-center w-full text-white'>
+            <a href="https://www.linkedin.com/in/amine-hariri-966485235/"  target='_blank' className='flex justify-between items-center w-full text-white'>
               <AiFillLinkedin  size={30}/> Linkedin
             </a>
           </li>
 
           <li className='w-[100px]  h-[50px]  flex justify-between items-center  mr-[-80px] hover:mr-[10px] ease-in-out duration-500'>
-            <a href="/" className='flex justify-between items-center w-full text-white '>
+            <a href="https://github.com/Aminehariri"  target='_blank' className='flex justify-between items-center w-full text-white '>
               <AiFillGithub  size={30}/> Github
             </a>
           </li>
           
           <li className='w-[100px]  h-[50px]  flex justify-between items-center  mr-[-80px] hover:mr-[10px] ease-in-out duration-500'>
-            <a href="/" className='flex justify-between items-center w-full text-white'>
+            <a href="mailto: abc@example.com" target='_blank' className='flex justify-between items-center w-full text-white'>
               <HiOutlineMail  size={30}/> Email
             </a>
           </li>

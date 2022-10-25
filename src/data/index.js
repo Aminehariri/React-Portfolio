@@ -12,28 +12,30 @@ import mysql from   '../assets/skills/mysql.webp'
 
 // work section imgages 
 
-import project1 from '../assets/skills/realestate.jpg'
-import project2 from '../assets/skills/workImg.jpeg'
+import htmlPorfolio from '../assets/projects/porfolioone.jpg'
+import ReactPorfolio from '../assets/projects/ReactPortfolio.jpg'
+import msservices from '../assets/projects/ms.jpg'
+import Bank from '../assets/projects/Bank.jpg'
 
 export const navLinks = [
   {
-    id: "/",
+    id: "Home",
     title: "Home",
   },
   {
-    id: "/About",
+    id: "About",
     title: "About",
   },
   {
-    id: "/Skills",
+    id: "Skills",
     title: "Skills",
   },
   {
-    id: "/Work",
+    id: "Work",
     title: "Portfolio",
   },
   {
-    id: "/Contact", 
+    id: "Contact", 
     title: "Contact",
   },
 ];
@@ -91,22 +93,68 @@ export const skills=[
 export const projects=[
   {
     id:1,
-    img:project1,
-    title:'RealState Website',
-  }
-  ,{
-    id:2,
-    img:project2,
-    title:'Working Website'
+    img:Bank,
+    title:'Bank Website',
+    link:'#',
+    describe:'I’m creating my own portfolio website from scratch to show my project and skills on internet ,Using html css javascript for frontend side .And for backend i’m using php and mysql as database to store the messages that are comming from the contact form . I’m almost done with the frontend side still some features to add then i’m gonna start the backend side .',
+    skills:{
+      one:'REACT-JS',
+      two:"TAILWIND CSS",
+      three:'',
+      four:''
+    },
+    github:'#'
   },
   {
+    id:2,
+    img:msservices,
+    title:'Job website',
+    link:'#',
+    describe:'creation a website for the company MS-services (Employing Company) that the users can search for job and apply for the positions that suit them.and easly the classement of the job request',
+    skills:{
+      one:'HTML',
+      two:"CSS",
+      three:'BOOTRSTAP',
+      four:'JAVASCRIPT'
+    },
+    github:'#'
+
+  }
+  ,{
     id:3,
-    img:project1,
-    title:'RealState Website',
+    img:ReactPorfolio,
+    title:'React Portfolio',
+    link:'#',
+    describe:'I’m creating my own portfolio website from scratch to show my project and skills on internet ,Using html css javascript for frontend side .And for backend i’m using php and mysql as database to store the messages that are comming from the contact form . I’m almost done with the frontend side still some features to add then i’m gonna start the backend side .',
+    skills:{
+      one:'REACT-JS',
+      two:"TAILWIND CSS",
+      three:'',
+      four:''
+    },
+    github:'#'
   }
   ,{
     id:4,
-    img:project2,
-    title:'Working Website'
+    img:htmlPorfolio,
+    title:'Porfolio Website',
+    link:'https://aminehariri.github.io/Portfolio-website/index.html',
+    describe:'I’m creating my own portfolio website from scratch to show my project and skills on internet ,Using html css javascript for frontend side .And for backend i’m using php and mysql as database to store the messages that are comming from the contact form . I’m almost done with the frontend side still some features to add then i’m gonna start the backend side .',
+    skills:{
+      one:'REACT-JS',
+      two:"TAILWIND CSS",
+      three:'',
+      four:''
+    },
+    github:'https://github.com/Aminehariri/Portfolio-website'
   }
+  
 ]
+
+
+const About_me =[{
+  Full_name:'Amine Hariri',
+  Work:'Web developer',
+  Skills:'HTML ,CSS,BOOTSTRAP,TAILWIND,JAVASCRIPT,REACT JS ,PHP,MY-SQL',
+  Website:'aminehariri.me'
+}]
