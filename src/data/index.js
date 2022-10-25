@@ -114,7 +114,7 @@ export const projects=[
     skills:{
       one:'HTML',
       two:"CSS",
-      three:'BOOTRSTAP',
+      three:'',
       four:'JAVASCRIPT'
     },
     github:'#'
@@ -132,7 +132,7 @@ export const projects=[
       three:'',
       four:''
     },
-    github:'#'
+    github:'https://github.com/Aminehariri/React-Portfolio'
   }
   ,{
     id:4,
