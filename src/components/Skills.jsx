@@ -10,7 +10,6 @@ export default function Skills() {
               <h4 className='max-w-[700px] text-[#777] text-xl'>I'm actualy capable to work with these technologies to build websites and web applications with modern user interfaces. </h4>
             </div>
             <div className=' mx-auto p-4 flex flex-col justify-center'>
-        
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 gap-y-4 gap-x-2 text-center'>
             {
               skills.map((card =>(

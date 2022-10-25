@@ -108,7 +108,7 @@ export const projects=[
   {
     id:2,
     img:msservices,
-    title:'Job website',
+    title:'Job ',
     link:'#',
     describe:'creation a website for the company MS-services (Employing Company) that the users can search for job and apply for the positions that suit them.and easly the classement of the job request',
     skills:{
