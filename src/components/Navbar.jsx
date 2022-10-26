@@ -18,11 +18,6 @@ export default function Navbar() {
       {/* <img src={logo} alt="logo" className='w-[124px] h-[32px]' /> */}
       <h1 className='text-white text-2xl text-gradient'>H.Amine</h1>
 
-
-
-
-
-
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
