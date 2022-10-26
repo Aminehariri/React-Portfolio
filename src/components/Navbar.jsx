@@ -19,6 +19,10 @@ export default function Navbar() {
       <h1 className='text-white text-2xl text-gradient'>H.Amine</h1>
 
 
+
+
+
+
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
