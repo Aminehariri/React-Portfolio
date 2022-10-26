@@ -1,7 +1,8 @@
 import React from 'react'
 import { navLinks } from '../data'
 import { useState } from 'react'
-import {close,logo,menu} from '../assets'
+import {close,menu} from '../assets'
+import logo from '../assets/logo.jpg'
 import { AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import{BallTriangle} from 'react-loader-spinner'
@@ -14,9 +15,9 @@ export default function Navbar() {
   const [toggle,setToggle] =useState(false);
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      {/* <img src={logo} alt="logo" className='w-[124px] h-[32px]' /> */}
+      <img src={logo} alt="logo" className='w-[124px] h-[32px]' />
       {/* // <h1 className='text-white text-2xl text-gradient'>H.Amine</h1> */}
-      <BallTriangle
+      {/* <BallTriangle
   height={50}
   width={50}
   radius={5}
@@ -25,7 +26,7 @@ export default function Navbar() {
   wrapperClass={{}}
   wrapperStyle=""
   visible={true}
-/>
+/> */}
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {

@@ -1,6 +1,7 @@
 import React from 'react'
 import {AiFillFilePdf} from 'react-icons/ai'
 
+
 export default function About() {
   return (
     <div className='text-white t w-full h-[100vh] flex flex-col justify-center my-6' name='About'>
