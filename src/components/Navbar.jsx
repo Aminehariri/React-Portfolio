@@ -16,17 +16,9 @@ export default function Navbar() {
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
       {/* <img src={logo} alt="logo" className='w-[124px] h-[32px]' /> */}
-      // <h1 className='text-white text-2xl text-gradient'>H.Amine</h1>
-      {/* <BallTriangle
-  height={50}
-  width={50}
-  radius={5}
-  color="#4ca5ff"
-  ariaLabel="ball-triangle-loading"
-  wrapperClass={{}}
-  wrapperStyle=""
-  visible={true}
-/> */}
+      <h1 className='text-white text-2xl text-gradient'>H.Amine</h1>
+
+
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
