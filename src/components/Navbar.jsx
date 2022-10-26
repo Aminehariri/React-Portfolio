@@ -15,8 +15,8 @@ export default function Navbar() {
   const [toggle,setToggle] =useState(false);
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="logo" className='w-[124px] h-[32px]' />
-      {/* // <h1 className='text-white text-2xl text-gradient'>H.Amine</h1> */}
+      {/* <img src={logo} alt="logo" className='w-[124px] h-[32px]' /> */}
+      // <h1 className='text-white text-2xl text-gradient'>H.Amine</h1>
       {/* <BallTriangle
   height={50}
   width={50}
