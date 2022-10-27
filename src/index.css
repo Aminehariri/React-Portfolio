@@ -33,22 +33,22 @@ h1{
     /* color: #ffffffcc;; */
 }
 @media (min-width:768px){
-  .container{
+  .container-center{
       width: 750px;
   }
 }
 @media (min-width:992px){
-  .container{
+  .container-center{
     width: 970px;
   }
 }
 
 @media (min-width:1200px){
-  .container{
+  .container-center{
     width: 1170px;
   }
 }
-.container{
+.container-center{
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -118,7 +118,7 @@ h1{
 .btn:hover{
   background-color: rgb(76 165 255 / 10%);;
 }
-svg{
+.icon{
   display: initial;
   transition: .3s;
 }

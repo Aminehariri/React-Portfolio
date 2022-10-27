@@ -9,7 +9,7 @@ export default function About() {
       <p className='my-12 text-[#777] max-w-[840px] text-xl md:text-2xl'>I'am Amine Hariri,Junior web developer based in casablanca,I'like coding things from scratch and enjoy bringing ideas to life in the browser with modern technologies.
         I'm currently focusing on learning new technologies to improve my skills as a web developer.I'm looking for a new opportunity on the job market,As a frontend web developer.</p>
       <button  className='btn'>
-        <a href="../assets/CV-AMINE-HARIRI.pdf" download className='bg-transparent'>Download Resume  <AiFillFilePdf/></a>
+        <a href="../assets/CV-AMINE-HARIRI.pdf" download className='bg-transparent'>Download Resume  <AiFillFilePdf className='icon'/></a>
       </button>
     </div>
   )

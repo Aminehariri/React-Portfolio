@@ -21,7 +21,7 @@ export default function Landing() {
       <button className='btn group'>
         <Link to='About' className='bg-transparent'  smooth={true} duration={500}>
         Explore more 
-        <AiOutlineArrowRight className='bg-[transparent]  ml-2 right' />
+        <AiOutlineArrowRight className='bg-[transparent]  ml-2 right icon' />
         </Link>
       </button>
     </div> 

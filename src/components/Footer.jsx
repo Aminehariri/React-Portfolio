@@ -9,7 +9,7 @@ export default function Footer() {
     <>
     <hr />
     <footer className='text-right h-[100px] text-[#ffffffcc] mt-7 text-xl uppercase'>
-    <h4><AiOutlineCopyrightCircle/> Amine hariri | {year}</h4>
+    <h4><AiOutlineCopyrightCircle className='icon'/> Amine hariri | {year}</h4>
     </footer>
     </>
   )

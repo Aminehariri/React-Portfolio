@@ -29,7 +29,7 @@ export default function Work() {
                     <h4 className=' bg-transparent'>{project.skills.four}</h4>
                   </div>
                   <div className='flex justify-between bg-transparent py-4'>
-                    <a href={project.github}  target='_blank' className='text-[#777] hover:text-white bg-transparent'>Code <AiFillGithub className='bg-transparent'/></a>
+                    <a href={project.github}  target='_blank' className='text-[#777] hover:text-white bg-transparent'>Code <AiFillGithub className='bg-transparent icon'/></a>
                     <a href={project.link}  target='_blank' className='text-[#777] hover:text-white bg-transparent'>Live demo</a>
                   </div>
                 </div>
