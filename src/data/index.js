@@ -156,5 +156,5 @@ const About_me =[{
   Full_name:'Amine Hariri',
   Work:'Web developer',
   Skills:'HTML ,CSS,BOOTSTRAP,TAILWIND,JAVASCRIPT,REACT JS ,PHP,MY-SQL',
-  Website:'aminehariri.me'
+  Website:'aminehariri.netlify.app'
 }]
