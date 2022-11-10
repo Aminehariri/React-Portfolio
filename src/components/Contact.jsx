@@ -34,7 +34,7 @@ export default function Contact() {
           <div className='w-full lg:w-1/2 my-2 md:my-6'>
             <h3 className='text-white'>Let's collaborate<GiNetworkBars className='ml-4 icon'/></h3>
             <p className='my-4'>If you have any suggestion,Project or even you want yo say hello.
-              please,Fill the out form and i Will reply you shortly</p>
+              please,Fill the out form and i will reply you shortly.</p>
               <ul className='my-4 md:my-8'>
                 <li className='text-white'><FaMapMarkerAlt className='text-[#4ca5ff] my-4 mr-4 icon' size={20}/> Casablanca</li>
                 <li className='text-white'><FiMail className='text-[#4ca5ff]  my-4  mr-4 icon' size={20}/>Aminehariri57@gmail.com</li>

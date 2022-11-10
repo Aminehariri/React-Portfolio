@@ -17,7 +17,7 @@ export default function Landing() {
         <Typed strings={ ["AMINE" ,'HARIRI']} typeSpeed={200} backSpeed={150} loop/>
         <br/>Front-End Web Developer
       </h1>
-        <p className='py-6 max-w-[600px]'>I’m a front-end web developer specializing in building exceptional digital experiences. Currently, I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
+        <p className='py-6 max-w-[600px]'>I’m a front-end web developer specializing in building exceptional digital experiences. Currently, I’m focusing on building responsive front-end web applications while learning back-end technologies.</p>
       <button className='btn group'>
         <Link to='About' className='bg-transparent'  smooth={true} duration={500}>
         Explore more 
