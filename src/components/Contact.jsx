@@ -36,9 +36,9 @@ export default function Contact() {
             <p className='my-4 lg:max-w-[468px]'>If you have any suggestion,Project or even you want yo say hello.
               please,Fill the out form and i will reply you shortly.</p>
               <ul className='my-4 md:my-8'>
-                <li className='text-white'><FaMapMarkerAlt className='text-[#4ca5ff] my-4 mr-4 icon' size={20}/> Casablanca</li>
-                <li className='text-white'><FiMail className='text-[#4ca5ff]  my-4  mr-4 icon' size={20}/>Aminehariri57@gmail.com</li>
-                <li className='text-white'><BsLinkedin  className='text-[#4ca5ff] my-4  mr-4 icon' size={20}/>www.linkedin.com/amine-hariri</li>
+                <li className='text-white'><FaMapMarkerAlt className='text-[#4ca5ff] my-4 mr-4 icon' size={25}/> Casablanca</li>
+                <li className='text-white'><FiMail className='text-[#4ca5ff]  my-4  mr-4 icon' size={25}/>Aminehariri57@gmail.com</li>
+                <li className='text-white'><BsLinkedin  className='text-[#4ca5ff] my-4  mr-4 icon' size={25}/>www.linkedin.com/amine-hariri</li>
               </ul>
           </div>
 
