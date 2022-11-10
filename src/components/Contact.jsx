@@ -51,7 +51,7 @@ export default function Contact() {
               
               <input type="mail" name='email' className='inp w-full mb-5' placeholder='Example@domain.com' />
               <textarea  required name='message' className='inp w-full h-[120px] mb-5' placeholder='Message'></textarea>
-              <input type="submit" className='border border-[#4ca5ff] p-3 cursor-pointer text-white' value='send message' name="" id="" />
+              <input type="submit" className='btn' value='send message' name="" id="" />
             </form>
           </div>
         </div>
