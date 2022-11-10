@@ -33,7 +33,7 @@ export default function Contact() {
         <div className='flex flex-col lg:flex-row pb-16'>
           <div className='w-full lg:w-1/2 my-2 md:my-6'>
             <h3 className='text-white'>Let's collaborate<GiNetworkBars className='ml-4 icon'/></h3>
-            <p className='my-4'>If You Have Any Suggestion, Project Or Even You Want To Say Hello.
+            <p className='my-4'>If you have any suggestion,Project Or Even You Want To Say Hello.
               Please,Fill The Out Form And I Will Reply You Shortly</p>
               <ul className='my-4 md:my-8'>
                 <li className='text-white'><FaMapMarkerAlt className='text-[#4ca5ff] my-4 mr-4 icon' size={20}/> Casablanca</li>
