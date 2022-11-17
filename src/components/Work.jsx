@@ -22,7 +22,7 @@ export default function Work() {
                   </div>
                       <h2 className=' bg-transparent text-gradient text-xl text-center py-4'>{project.title}</h2>
                       <p className='bg-transparent min-h-[114px]'>{project.describe}</p>
-                  <div className='flex justify-between bg-transparent py-4 uppercase'>
+                  <div className='flex justify-around bg-transparent py-4 uppercase'>
                     <h4  className=' bg-transparent'>{project.skills.one}</h4>
                     <h4 className=' bg-transparent'>{project.skills.two}</h4>
                     <h4 className=' bg-transparent'>{project.skills.three}</h4>
