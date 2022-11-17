@@ -13,9 +13,9 @@ export default function Skills() {
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 gap-y-4 gap-x-2 text-center'>
             {
               skills.map((card =>(
-                <div key={card.id} className='flex flex-col items-center hover:scale-110 ease-in-out duration-500 '>
-                  <img src={card.img} alt="" className='w-20' />
-                  <h3>{card.title}</h3>
+                <div key={card.id} className='flex flex-col items-center group hover:scale-110 ease-in-out duration-500 '>
+                  <img src={card.img} alt="" className='w-20 grayscale group-hover:grayscale-0' />
+                  <h3 className=''>{card.title}</h3>
                 </div>
               )))
             }
