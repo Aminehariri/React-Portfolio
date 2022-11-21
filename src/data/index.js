@@ -12,7 +12,7 @@ import mysql from   '../assets/skills/mysql.webp'
 
 // work section imgages 
 
-import bondi from '../assets/projects/Bank.jpg'
+import bondi from '../assets/projects/bondi2.jpg'
 import htmlPorfolio from '../assets/projects/porfolioone.jpg'
 import ReactPorfolio from '../assets/projects/ReactPortfolio.jpg'
 import msservices from '../assets/projects/ms.jpg'
@@ -149,6 +149,20 @@ export const projects=[
     },
     github:'https://github.com/Aminehariri/Portfolio-website'
   }
+  ,{
+    id:5,
+    img:bondi,
+    title:'Porfolio Website',
+    link:'https://aminehariri.github.io/Portfolio-website/index.html',
+    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,but it was vary hard to edit the content or add some feature.That’s why a decide to create a new one using REACT-JS and TAILWIND',
+    skills:{
+      one:'REACT-JS',
+      two:"TAILWIND CSS",
+      three:'',
+      four:''
+    },
+    github:'https://github.com/Aminehariri/Portfolio-website'
+  },
   
 ]
 
