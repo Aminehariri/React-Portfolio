@@ -140,7 +140,7 @@ export const projects=[
     img:htmlPorfolio,
     title:'Porfolio Website',
     link:'https://aminehariri.github.io/Portfolio-website/index.html',
-    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,but it was vary hard to edit the content or add some feature.That’s why a decide to create a new one using REACT-JS and TAILWIND',
+    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,That’s why a decide to create a new one using REACT-JS and TAILWIND',
     skills:{
       one:'REACT-JS',
       two:"TAILWIND CSS",
@@ -152,13 +152,13 @@ export const projects=[
   ,{
     id:5,
     img:bondi,
-    title:'Porfolio Website',
-    link:'https://aminehariri.github.io/Portfolio-website/index.html',
-    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,but it was vary hard to edit the content or add some feature.That’s why a decide to create a new one using REACT-JS and TAILWIND',
+    title:'Bondi Template',
+    link:'https://aminehariri.github.io/Frontend-mentor-challenge/',
+    describe:'I create this bondi website from frontend mentor challenge using HTML and BOOTSTRAP utility classes and some lines of CSS',
     skills:{
-      one:'REACT-JS',
-      two:"TAILWIND CSS",
-      three:'',
+      one:'HTML',
+      two:"BOOTSTRAP",
+      three:'CSS',
       four:''
     },
     github:'https://github.com/Aminehariri/Portfolio-website'
