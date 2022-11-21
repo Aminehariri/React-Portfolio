@@ -12,6 +12,7 @@ import mysql from   '../assets/skills/mysql.webp'
 
 // work section imgages 
 
+import bondi from '../assets/projects/Bank.jpg'
 import htmlPorfolio from '../assets/projects/porfolioone.jpg'
 import ReactPorfolio from '../assets/projects/ReactPortfolio.jpg'
 import msservices from '../assets/projects/ms.jpg'
