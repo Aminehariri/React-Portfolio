@@ -140,7 +140,7 @@ export const projects=[
     img:htmlPorfolio,
     title:'Porfolio Website',
     link:'https://aminehariri.github.io/Portfolio-website/index.html',
-    describe:'Portfolio website using HTML and CSS and  JS ,BOOTSTRAP it’s 100% responsive i’ve learn a lot of thing while creating this website ,That’s why a decide to create a new one using REACT-JS and TAILWIND',
+    describe:'My first Portfolio website.It’s 100% responsive and you can use it as your own Portfolio website',
     skills:{
       one:'REACT-JS',
       two:"TAILWIND CSS",
@@ -161,7 +161,7 @@ export const projects=[
       three:'CSS',
       four:''
     },
-    github:'https://github.com/Aminehariri/Portfolio-website'
+    github:'https://github.com/Aminehariri/Frontend-mentor-challenge'
   },
   
 ]
