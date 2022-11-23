@@ -4,19 +4,20 @@ import Typed from 'react-typed'
 import {AiFillLinkedin,AiFillGithub,AiOutlineMail} from 'react-icons/ai'
 import {HiOutlineMail} from 'react-icons/hi'
 import { Link } from 'react-scroll'
-
+import '../../src/index.css'
 
 export default function Landing() {
   return (
     <>
-    <div className='h-[80vh] text-white  '>
-      <h3 className='text-[18px] mt-24  mb-4 text-gradient font-normal'>Let's build something together</h3>
+    <div className=' flex flex-col content-center justify-center landing text-white  '>
+      <h3 className='text-[18px]   mb-4 text-gradient font-normal z-10'>Let's build something together</h3>
       <h1 
-        className=' md:text-6xl sm:text-4xl text-2xl font-bold  sm:font-normal text-[#ffffffcc] '>Hi, I'm {' '}
+        className='text-2xl  md:text-[4rem] sm:text-4xl font-bold  sm:font-normal text-[#ffffffcc]'>Hi, I'm {' '}
         
         <Typed strings={ ["AMINE" ,'HARIRI']} typeSpeed={200} backSpeed={150} loop/>
-        <br/>Front-End Web Developer
+        
       </h1>
+      <h1 className='text-2xl z-10 md:text-[3.7rem] bg-transparent sm:text-4xl font-bold  sm:font-normal text-[#ffffffcc] '><br/>Front-End Web Developer</h1>
         <p className='py-6 max-w-[600px]'>I’m a front-end web developer specializing in building exceptional digital experiences. Currently, I’m focusing on building responsive front-end web applications while learning back-end technologies.</p>
       <button className='btn group'>
         <Link to='About' className='bg-transparent'  smooth={true} duration={500}>
@@ -26,7 +27,7 @@ export default function Landing() {
       </button>
     </div> 
     
-    <div className='hidden md:flex fixed flex-col top-[40%] right-0'>
+    <div className='hidden md:flex fixed flex-col top-[40%] right-0 z-20'>
         <ul className='mr-4'>
 
           <li className='w-[100px] h-[50px] flex justify-around items-center mr-[-80px] hover:mr-[10px] ease-in-out duration-500' >
