@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiFillMail, AiOutlineArrowRight} from 'react-icons/ai'
 import Typed from 'react-typed'
-import {AiFillLinkedin,AiFillGithub,AiOutlineMail} from 'react-icons/ai'
+import {AiFillLinkedin,AiFillGithub,AiOutlineMail,} from 'react-icons/ai'
 import {HiOutlineMail} from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import '../../src/index.css'
@@ -25,6 +25,21 @@ export default function Landing() {
         <AiOutlineArrowRight className='bg-[transparent]  ml-2 right icon' />
         </Link>
       </button>
+
+      <div className="flex justify-center items-center gap-6 ">
+            <a href="https://www.linkedin.com/in/amine-hariri-966485235/"  target='_blank' className='h-[60px] w-[60px] shadow-lg rounded-full shadow-gray-600 flex items-center justify-center  '>
+              <AiFillGithub  size={30}/> 
+            </a>
+            <a href="https://www.linkedin.com/in/amine-hariri-966485235/"  target='_blank' className='h-[60px] w-[60px] shadow-lg rounded-full shadow-gray-600 flex items-center justify-center  '>
+              <AiFillLinkedin  size={30}/> 
+            </a>
+            <a href="https://www.linkedin.com/in/amine-hariri-966485235/"  target='_blank' className='h-[60px] w-[60px] shadow-lg rounded-full shadow-gray-600 flex items-center justify-center  '>
+              <HiOutlineMail  size={30}/> 
+            </a>
+
+          
+      </div>
+
     </div> 
     
     <div className='hidden md:flex fixed flex-col top-[40%] right-0 z-20'>
