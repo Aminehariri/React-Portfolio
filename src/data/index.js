@@ -12,6 +12,7 @@ import redux from '../assets/skills/redux.b7f58b27.png'
 
 // work section imgages 
 
+import nikestore from '../assets/projects/Nike-Store.jpg'
 import bondi from '../assets/projects/bondi2.jpg'
 import htmlPorfolio from '../assets/projects/porfolioone.jpg'
 import ReactPorfolio from '../assets/projects/ReactPortfolio.jpg'
@@ -157,7 +158,21 @@ export const projects=[
       four:''
     },
     github:'https://github.com/Aminehariri/Frontend-mentor-challenge'
-  },
+  }
+  ,{
+    id:5,
+    img:nikestore,
+    title:'Nike Store',
+    link:'https://aminehariri.github.io/Frontend-mentor-challenge/',
+    describe:'I create this bondi website from frontend mentor challenge using HTML and BOOTSTRAP utility classes and some lines of CSS',
+    skills:{
+      one:'HTML',
+      two:"BOOTSTRAP",
+      three:'CSS',
+      four:''
+    },
+    github:'https://github.com/Aminehariri/Frontend-mentor-challenge'
+  }
   
 ]
 
