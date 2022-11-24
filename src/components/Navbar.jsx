@@ -20,7 +20,7 @@ export default function Navbar() {
       <h1 className='text-white text-2xl text-gradient'>{title}</h1>
 
       
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+      <ul className='list-none hidden sm:flex justify-end items-center flex-1'>
         {
           navLinks.map((nav,index) =>(
             <li key={nav.id} >
@@ -33,7 +33,7 @@ export default function Navbar() {
         }
       </ul>
 
-      <div className='sm:hidden flex justify-end flex-1 items-center '>
+      <div className='sm:hidden flex justify-end flex-1 items-center z-10'>
         <img src={toggle ?close :menu} alt="menu" className='w-[28px] object-contain cursor-pointer' onClick={() => setToggle((prev=> !prev))} />
         <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient  bg-gradient sidebar absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl `}>
             <ul className='list-none flex-col flex justify-end items-center flex-1 bg-transparent '>

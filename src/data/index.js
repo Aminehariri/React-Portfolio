@@ -7,8 +7,8 @@ import bootstrap from '../assets/skills/boots-removebg-preview.png'
 import js from '../assets/skills/javascript.png'
 import reactIMG from '../assets/skills/react.png'
 import git from '../assets/skills/Git.webp'
-import php from '../assets/skills/php.webp'
-import mysql from   '../assets/skills/mysql.webp'
+import redux from '../assets/skills/redux.b7f58b27.png'
+
 
 // work section imgages 
 
@@ -74,19 +74,14 @@ export const skills=[
     title:'REACT-JS'
   },
   {
-    id:8,
-    img:php,
-    title:'PHP'
-  },
-  {
-    id:9,
-    img:mysql,
-    title:'MY-SQL'
-  },
-  {
     id:7,
     img:git,
     title:'GIT'
+  },
+  {
+    id:8,
+    img:redux,
+    title:'REDUX'
   }
 ]
 

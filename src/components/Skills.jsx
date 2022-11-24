@@ -1,12 +1,14 @@
 import React from 'react'
 import { skills } from '../data'
+import MainTitle from './MainTitle';
+
 
 
 export default function Skills() {
   return (
     <div name='Skills' className='w-full  text-white '  >
-            <div className='py-6'>
-              <h2 className='text-2xl text-gradient section-title my-4 py-2 mb-12'>My Skills</h2>
+                    <MainTitle title='My Skills' />
+            <div className='pb-6'>
               <h4 className='max-w-[700px] text-[#777] text-xl'>I'm actualy capable to work with these technologies to build websites and web applications with modern user interfaces. </h4>
             </div>
             <div className=' mx-auto p-4 flex flex-col justify-center'>

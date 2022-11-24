@@ -129,11 +129,6 @@ h1{
 .btn:hover .right{
   transform: rotate(90deg);
 }
-.section-title{
-  border-bottom: 1px solid #4ca5ff;
-  width: fit-content;
-}
-
 .content-div{
   background-repeat: no-repeat;
   background-size: cover;

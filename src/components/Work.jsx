@@ -3,13 +3,17 @@ import imgone from '../assets/skills/realestate.jpg'
 import imgtwo from '../assets/skills/workImg.jpeg'
 import { projects } from '../data'
 import { AiFillGithub } from 'react-icons/ai'
+import MainTitle from './MainTitle'
 
-export default function Work() {
+export default function Work({title}) {
   return (
   <div name='Work' className='w-full mb-[90px] text-white '  >
-    <div className='pt-6'>
-      <h2 className='text-2xl text-gradient section-title mt-4 mb-12 md:mt-6'>My recent projects</h2>
+    <div className='pt-6 relative '>
+    <MainTitle  title='my last projects '/>
+
+      {/* <h2 className='text-2xl text-gradient section-title mt-4 mb-12 md:mt-6'>My recent projects</h2> */}
     </div>
+
     
     <div className=''>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-6'>

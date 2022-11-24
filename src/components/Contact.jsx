@@ -6,6 +6,7 @@ import {FiMail} from 'react-icons/fi'
 import {BsLinkedin} from 'react-icons/bs'
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import MainTitle from './MainTitle';
 
 
 export default function Contact() {
@@ -29,7 +30,7 @@ export default function Contact() {
 
   return (
     <div name="Contact" className='w-full my-14'>
-        <h2 className='text-2xl text-gradient section-title mt-4 mb-12 '> Contact me</h2>
+      <MainTitle title='Contact me' />
         <div className='flex flex-col lg:flex-row pb-16'>
           <div className='w-full lg:w-1/2 my-2 md:my-6'>
             <h3 className='text-white'>Let's collaborate<GiNetworkBars className='ml-4 icon'/></h3>
