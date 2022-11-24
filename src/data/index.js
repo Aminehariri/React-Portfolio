@@ -160,7 +160,7 @@ export const projects=[
     github:'https://github.com/Aminehariri/Frontend-mentor-challenge'
   }
   ,{
-    id:5,
+    id:6,
     img:nikestore,
     title:'Nike Store',
     link:'#',
@@ -173,7 +173,6 @@ export const projects=[
     },
     github:'#'
   }
-  
 ]
 
 
