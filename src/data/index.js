@@ -163,15 +163,15 @@ export const projects=[
     id:5,
     img:nikestore,
     title:'Nike Store',
-    link:'https://aminehariri.github.io/Frontend-mentor-challenge/',
-    describe:'I create this bondi website from frontend mentor challenge using HTML and BOOTSTRAP utility classes and some lines of CSS',
+    link:'#',
+    describe:'Modern Nike shoes Store clone using ReactJs and TailwindCss',
     skills:{
-      one:'HTML',
-      two:"BOOTSTRAP",
-      three:'CSS',
+      one:'ReactJs',
+      two:"TailwindCss",
+      three:'Css',
       four:''
     },
-    github:'https://github.com/Aminehariri/Frontend-mentor-challenge'
+    github:'#'
   }
   
 ]
