@@ -74,14 +74,14 @@ export const skills=[
     title:'REACT-JS'
   },
   {
-    id:7,
-    img:git,
-    title:'GIT'
-  },
-  {
     id:8,
     img:redux,
     title:'REDUX'
+  },
+  {
+    id:7,
+    img:git,
+    title:'GIT'
   }
 ]
 

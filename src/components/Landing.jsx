@@ -20,7 +20,7 @@ export default function Landing() {
         
       </h1>
       <h1 className='text-2xl md:z-10 md:text-[3.4rem] bg-transparent sm:text-4xl font-bold  sm:font-normal text-[#ffffffcc] '><br/>A Front-End Web Developer</h1>
-      <p className='py-6 md:mx-20 lg:mx-40 flex items-center justify-center text-center'>I’m a front-end web developer specializing in creating high user experience, let's work together and bring your idea to the internet .. I help you to raise your preject to the highest success with highest quality.Through my experience as a developer</p>
+      <p className='py-6 md:mx-20 lg:mx-40 flex items-center justify-center text-center'>I’m a front-end web developer specializing in creating high user experience, let's work together and bring your idea to the internet. I help you to raise your preject to the highest success with highest quality.Through my experience as a developer</p>
       
 
       <div className="flex justify-center items-center gap-6 mt-5">
