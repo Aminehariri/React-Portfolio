@@ -13,7 +13,7 @@ import redux from '../assets/skills/redux.b7f58b27.png'
 // work section imgages 
 
 import nikestore from '../assets/projects/Nike-Store.jpg'
-import bondi from '../assets/projects/bondi2.jpg'
+import bondi from '../assets/projects/Votre texte de paragraphe.png'
 import htmlPorfolio from '../assets/projects/porfolioone.jpg'
 import ReactPorfolio from '../assets/projects/ReactPortfolio.jpg'
 import msservices from '../assets/projects/ms.jpg'
