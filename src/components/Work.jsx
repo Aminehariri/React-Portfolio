@@ -16,7 +16,7 @@ export default function Work({title}) {
 
     
     <div className=''>
-        <div className='grid grid-cols-1 md:grid-cols-2 mx-36 gap-12 mb-6'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:mx-36 gap-12 mb-6'>
           {
             projects.map((project =>
               (
