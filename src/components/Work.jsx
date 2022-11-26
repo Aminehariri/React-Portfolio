@@ -22,11 +22,11 @@ export default function Work({title}) {
               (
                 <div className='p-4 bg-gradient rounded-lg hover:scale-105 ease-in-out duration-500' key={project.id}>
                   <div className='rounded grid bg-transparent [place-items:center]'>
-                    <img src={project.img} alt={project.title}  className='rounded-lg '/>
+                    <img src={project.img} alt={project.title}  className='rounded-lg w-full'/>
                   </div>
                       <h2 className=' bg-transparent text-gradient text-xl text-center py-4'>{project.title}</h2>
-                      <p className='bg-transparent min-h-[114px]'>{project.describe}</p>
-                  <div className='flex justify-around bg-transparent py-4 uppercase'>
+                      {/* <p className='bg-transparent min-h-[114px]'>{project.describe}</p> */}
+                  {/* <div className='flex justify-around bg-transparent py-4 uppercase'>
                     <h4  className=' bg-transparent'>{project.skills.one}</h4>
                     <h4 className=' bg-transparent'>{project.skills.two}</h4>
                     <h4 className=' bg-transparent'>{project.skills.three}</h4>
@@ -35,7 +35,7 @@ export default function Work({title}) {
                   <div className='flex justify-between bg-transparent py-4'>
                     <a href={project.github}  target='_blank' className='text-[#777] hover:text-white bg-transparent'>Code <AiFillGithub size={24} className='bg-transparent icon'/></a>
                     <a href={project.link}  target='_blank' className='text-[#777] hover:text-white bg-transparent'>Live demo</a>
-                  </div>
+                  </div> */}
                 </div>
               )
               ))
